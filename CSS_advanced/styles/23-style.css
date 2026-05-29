@@ -8,7 +8,7 @@
   display: block;
 }
 
-/* Social link SVG icons */
-.social-link svg {
+/* Social link SVG icons (must be direct child) */
+.social-link > svg {
   fill: var(--text-color);
 }
